@@ -7,7 +7,7 @@ Have look at notebook in this repository for more information.
 Make sure you what `virtualenv` installed
 
 ```
-[sudo] python -m pip install `virtualenv`
+[sudo] python -m pip install virtualenv
 ```
 
 Create a virtual enviroment
