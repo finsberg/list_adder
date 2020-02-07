@@ -1,7 +1,7 @@
 from typing import Optional, List
 
 
-def add(x: float, y: float) -> float:
+def add(x: float, y: Optional[float] = 1) -> float:
     """Add two numbers
 
     Arguments
@@ -9,7 +9,7 @@ def add(x: float, y: float) -> float:
     x : float
         First number
     y : float
-        Second number
+        Second number. If not provided it will default to 1
 
     Returns
     -------
