@@ -1,6 +1,7 @@
 # A simple example of how to set up a good workflow on GitHub
 
 Have look at notebook in this repository for more information.
+[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/finsberg/list_adder/master?filepath=index.ipynb)
 
 ## Install
 
