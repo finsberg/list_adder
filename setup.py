@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="list_adder",
-    description="Demo for compy journal club",
+    description="Demo for comphy journal club",
     version="1.0",
     author="Henrik Finsberg",
     license="MIT",
