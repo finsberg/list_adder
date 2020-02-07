@@ -1,4 +1,7 @@
-def add(x, y):
+from typing import Optional, List
+
+
+def add(x: float, y: float) -> float:
     """Add two numbers
 
     Arguments
@@ -13,12 +16,10 @@ def add(x, y):
     float
         The sum of x and y
     """
-    for arg in [x, y]:
-        assert isinstance(arg, float)
     return float(x + y)
 
 
-def add_lists(list1, list2):
+def add_lists(lst1: List[float], lst2: List[float]) -> List[float]:
     """Elementwise addition of lists
 
     Arguments
@@ -33,11 +34,11 @@ def add_lists(list1, list2):
     list
         Elementwise sum of the two lists
     """
-    if len(list1) != len(list2):
+    if len(lst1) != len(lst2):
         msg = (
             "Elementwise additions of two lists of different sizes not "
-            f"allowed. len(list1) = {len(list1)}, len(list2) == {len(list2)}"
+            f"allowed. len(list1) = {len(lst1)}, len(list2) == {len(lst2)}"
         )
         raise ValueError(msg)
-    return [add(x, y) for x, y in zip(list1, list2)]
+    return [add(x, y) for x, y in zip(lst1, lst2)]
 
